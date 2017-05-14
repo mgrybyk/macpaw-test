@@ -1,0 +1,29 @@
+{
+  "name": "macpaw-test",
+  "version": "0.0.1",
+  "description": "task-1",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "report": "./node_modules/allure-commandline/bin/allure serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgrybyk/macpaw-test.git"
+  },
+  "author": "mgrybyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgrybyk/macpaw-test/issues"
+  },
+  "homepage": "https://github.com/mgrybyk/macpaw-test#readme",
+  "dependencies": {
+    "imap": "^0.8.19",
+    "shortid": "^2.2.8",
+    "wdio-mocha-framework": "^0.5.10",
+    "webdriverio": "^4.7.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.0.0",
+    "wdio-allure-reporter": "^0.1.2"
+  }
+}
