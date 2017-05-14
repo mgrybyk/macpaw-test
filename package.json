@@ -4,7 +4,8 @@
   "description": "task-1",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "report": "./node_modules/allure-commandline/bin/allure serve"
+    "report": "./node_modules/allure-commandline/bin/allure serve",
+    "report-win": "node_modules\\allure-commandline\\dist\\bin\\allure.bat serve"
   },
   "repository": {
     "type": "git",
